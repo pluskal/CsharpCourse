@@ -111,7 +111,7 @@ namespace GangOfFour.Bridge.NETOptimized
     /// </summary>
     class CustomersData : IDataObject
     {
-        private List<string> _customers;
+        private readonly List<string> _customers;
         private int _current = 0;
 
         // Constructor

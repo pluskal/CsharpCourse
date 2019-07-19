@@ -69,7 +69,7 @@ namespace GangOfFour.Facade.RealWorld
     /// </summary>
     class Customer
     {
-        private string _name;
+        private readonly string _name;
 
         // Constructor
         public Customer(string name)
@@ -89,9 +89,9 @@ namespace GangOfFour.Facade.RealWorld
     /// </summary>
     class Mortgage
     {
-        private Bank _bank = new Bank();
-        private Loan _loan = new Loan();
-        private Credit _credit = new Credit();
+        private readonly Bank _bank = new Bank();
+        private readonly Loan _loan = new Loan();
+        private readonly Credit _credit = new Credit();
 
         public bool IsEligible(Customer cust, int amount)
         {

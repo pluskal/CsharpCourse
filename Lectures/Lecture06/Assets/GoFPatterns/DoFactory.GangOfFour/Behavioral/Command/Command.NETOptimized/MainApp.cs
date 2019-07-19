@@ -50,7 +50,7 @@ namespace GangOfFour.Command.NETOptimized
     {
         private char _operator;
         private int _operand;
-        private Calculator _calculator;
+        private readonly Calculator _calculator;
 
         // Constructor
         public CalculatorCommand(Calculator calculator,
@@ -128,8 +128,8 @@ namespace GangOfFour.Command.NETOptimized
     /// </summary>
     class User
     {
-        private Calculator _calculator = new Calculator();
-        private List<ICommand> _commands = new List<ICommand>();
+        private readonly Calculator _calculator = new Calculator();
+        private readonly List<ICommand> _commands = new List<ICommand>();
         private int _current = 0;
 
         // Redo original commands

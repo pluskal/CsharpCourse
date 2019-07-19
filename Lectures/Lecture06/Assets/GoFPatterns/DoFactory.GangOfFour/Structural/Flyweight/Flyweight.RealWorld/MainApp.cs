@@ -41,7 +41,7 @@ namespace GangOfFour.Flyweight.RealWorld
     /// </summary>
     class CharacterFactory
     {
-        private Dictionary<char, Character> _characters =
+        private readonly Dictionary<char, Character> _characters =
             new Dictionary<char, Character>();
 
         public Character GetCharacter(char key)

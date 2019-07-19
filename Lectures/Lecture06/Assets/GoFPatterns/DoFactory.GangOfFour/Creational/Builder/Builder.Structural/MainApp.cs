@@ -62,7 +62,7 @@ namespace GangOfFour.Builder.Structural
     /// </summary>
     class ConcreteBuilder1 : Builder
     {
-        private Product _product = new Product();
+        private readonly Product _product = new Product();
 
         public override void BuildPartA()
         {
@@ -85,7 +85,7 @@ namespace GangOfFour.Builder.Structural
     /// </summary>
     class ConcreteBuilder2 : Builder
     {
-        private Product _product = new Product();
+        private readonly Product _product = new Product();
 
         public override void BuildPartA()
         {
@@ -108,7 +108,7 @@ namespace GangOfFour.Builder.Structural
     /// </summary>
     class Product
     {
-        private List<string> _parts = new List<string>();
+        private readonly List<string> _parts = new List<string>();
 
         public void Add(string part)
         {

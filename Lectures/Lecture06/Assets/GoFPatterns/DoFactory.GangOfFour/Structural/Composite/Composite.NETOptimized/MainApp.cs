@@ -45,7 +45,7 @@ namespace GangOfFour.Composite.NETOptimized
     /// <typeparam name="T">Node type</typeparam>
     class TreeNode<T> where T : IComparable<T>
     {
-        private List<TreeNode<T>> _children = new List<TreeNode<T>>();
+        private readonly List<TreeNode<T>> _children = new List<TreeNode<T>>();
 
         // Add a child tree node
         public TreeNode<T> Add(T child)
@@ -99,7 +99,7 @@ namespace GangOfFour.Composite.NETOptimized
  
     class Shape : IComparable<Shape>
     {
-        private string _name;
+        private readonly string _name;
 
         // Constructor
         public Shape(string name)

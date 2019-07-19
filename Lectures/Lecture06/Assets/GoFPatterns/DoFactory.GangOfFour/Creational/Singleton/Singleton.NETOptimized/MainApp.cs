@@ -50,8 +50,8 @@ namespace GangOfFour.Singleton.NETOptimized
             new LoadBalancer();
 
         // Type-safe generic list of servers
-        private List<Server> _servers;
-        private Random _random = new Random();
+        private readonly List<Server> _servers;
+        private readonly Random _random = new Random();
 
         // Note: constructor is 'private'
         private LoadBalancer()

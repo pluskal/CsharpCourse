@@ -15,7 +15,7 @@
     
     
     
-    <TargetFramework>net35</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     
     
     
@@ -47,5 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="UML Diagram\ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
   </ItemGroup>
 </Project>

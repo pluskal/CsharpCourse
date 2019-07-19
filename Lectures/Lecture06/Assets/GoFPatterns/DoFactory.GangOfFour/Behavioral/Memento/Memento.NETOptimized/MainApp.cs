@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Soap;
+using System.Runtime.Serialization.Json;
 
 namespace GangOfFour.Memento.NETOptimized
 {
@@ -110,19 +110,19 @@ namespace GangOfFour.Memento.NETOptimized
     /// </summary>
     class Memento
     {
-        private MemoryStream _stream = new MemoryStream();
-        private SoapFormatter _formatter = new SoapFormatter();
+        private readonly MemoryStream _stream = new MemoryStream();
+        private readonly DataContractJsonSerializer _serializer = new DataContractJsonSerializer(typeof(SalesProspect));
 
         public Memento Serialize(object o)
         {
-            _formatter.Serialize(_stream, o);
+            _serializer.WriteObject(_stream, o);
             return this;
         }
 
         public object Deserialize()
         {
             _stream.Seek(0, SeekOrigin.Begin);
-            object o = _formatter.Deserialize(_stream);
+            object o = _serializer.ReadObject(_stream);
             _stream.Close();
 
             return o;

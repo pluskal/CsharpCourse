@@ -51,8 +51,8 @@ namespace GangOfFour.Decorator.NETOptimized
     /// </summary>
     class Book : LibraryItem
     {
-        private string _author;
-        private string _title;
+        private readonly string _author;
+        private readonly string _title;
 
         // Constructor
         public Book(string author, string title, int numCopies)
@@ -76,9 +76,9 @@ namespace GangOfFour.Decorator.NETOptimized
     /// </summary>
     class Video : LibraryItem
     {
-        private string _director;
-        private string _title;
-        private int _playTime;
+        private readonly string _director;
+        private readonly string _title;
+        private readonly int _playTime;
 
         // Constructor
         public Video(string director, string title,

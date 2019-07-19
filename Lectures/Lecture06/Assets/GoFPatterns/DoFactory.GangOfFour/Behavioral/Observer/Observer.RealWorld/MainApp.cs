@@ -35,9 +35,9 @@ namespace GangOfFour.Observer.RealWorld
     /// </summary>
     abstract class Stock
     {
-        private string _symbol;
+        private readonly string _symbol;
         private double _price;
-        private List<IInvestor> _investors = new List<IInvestor>();
+        private readonly List<IInvestor> _investors = new List<IInvestor>();
 
         // Constructor
         public Stock(string symbol, double price)
@@ -112,7 +112,7 @@ namespace GangOfFour.Observer.RealWorld
     /// </summary>
     class Investor : IInvestor
     {
-        private string _name;
+        private readonly string _name;
         private Stock _stock;
 
         // Constructor

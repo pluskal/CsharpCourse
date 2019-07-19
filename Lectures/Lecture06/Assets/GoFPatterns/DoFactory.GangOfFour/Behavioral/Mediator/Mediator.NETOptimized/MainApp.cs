@@ -55,7 +55,7 @@ namespace GangOfFour.Mediator.NETOptimized
     /// </summary>
     class Chatroom : IChatroom
     {
-        private Dictionary<string, Participant> _participants =
+        private readonly Dictionary<string, Participant> _participants =
             new Dictionary<string, Participant>();
 
         public void Register(Participant participant)

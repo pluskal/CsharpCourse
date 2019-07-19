@@ -38,7 +38,7 @@ namespace GangOfFour.Adapter.Structural
     /// </summary>
     class Adapter : Target
     {
-        private Adaptee _adaptee = new Adaptee();
+        private readonly Adaptee _adaptee = new Adaptee();
 
         public override void Request()
         {

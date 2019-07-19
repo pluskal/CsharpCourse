@@ -15,7 +15,7 @@
     
     
     
-    <TargetFramework>net35</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     
     
     

@@ -128,8 +128,8 @@ namespace GangOfFour.Abstract.RealWorld
     /// </summary>
     class AnimalWorld
     {
-        private Herbivore _herbivore;
-        private Carnivore _carnivore;
+        private readonly Herbivore _herbivore;
+        private readonly Carnivore _carnivore;
 
         // Constructor
         public AnimalWorld(ContinentFactory factory)

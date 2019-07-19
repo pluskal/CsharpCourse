@@ -69,9 +69,9 @@ namespace GangOfFour.Facade.NETOptimized
     /// </summary>
     class Mortgage
     {
-        private Bank _bank = new Bank();
-        private Loan _loan = new Loan();
-        private Credit _credit = new Credit();
+        private readonly Bank _bank = new Bank();
+        private readonly Loan _loan = new Loan();
+        private readonly Credit _credit = new Credit();
 
         public bool IsEligible(Customer cust, int amount)
         {

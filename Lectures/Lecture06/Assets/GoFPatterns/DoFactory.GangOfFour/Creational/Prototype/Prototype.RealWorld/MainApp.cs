@@ -49,9 +49,9 @@ namespace GangOfFour.Prototype.RealWorld
     /// </summary>
     class Color : ColorPrototype
     {
-        private int _red;
-        private int _green;
-        private int _blue;
+        private readonly int _red;
+        private readonly int _green;
+        private readonly int _blue;
 
         // Constructor
         public Color(int red, int green, int blue)
@@ -77,7 +77,7 @@ namespace GangOfFour.Prototype.RealWorld
     /// </summary>
     class ColorManager
     {
-        private Dictionary<string, ColorPrototype> _colors =
+        private readonly Dictionary<string, ColorPrototype> _colors =
             new Dictionary<string, ColorPrototype>();
 
         // Indexer

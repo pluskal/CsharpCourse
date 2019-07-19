@@ -45,11 +45,11 @@ namespace GangOfFour.Singleton.RealWorld
     class LoadBalancer
     {
         private static LoadBalancer _instance;
-        private List<string> _servers = new List<string>();
-        private Random _random = new Random();
+        private readonly List<string> _servers = new List<string>();
+        private readonly Random _random = new Random();
 
         // Lock synchronization object
-        private static object syncLock = new object();
+        private static readonly object syncLock = new object();
 
         // Constructor (protected)
         protected LoadBalancer()

@@ -99,7 +99,7 @@ namespace GangOfFour.Prototype.NETOptimized
     /// </summary>
     class ColorManager
     {
-        private Dictionary<ColorType, Color> _colors =
+        private readonly Dictionary<ColorType, Color> _colors =
             new Dictionary<ColorType, Color>();
 
         // Gets or sets color

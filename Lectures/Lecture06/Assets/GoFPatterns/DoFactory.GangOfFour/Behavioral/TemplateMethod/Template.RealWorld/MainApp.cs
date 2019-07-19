@@ -1,6 +1,7 @@
 using System;
 using System.Data;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 
 namespace GangOfFour.Template.RealWorld
 {
@@ -37,9 +38,8 @@ namespace GangOfFour.Template.RealWorld
         public virtual void Connect()
         {
             // Make sure mdb is available to app
-            connectionString =
-                "provider=Microsoft.JET.OLEDB.4.0; " +
-                "data source=..\\..\\..\\db1.mdb";
+            connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=TemplateMethod;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\TemplateMethod.mdf";
+
         }
 
         public abstract void Select();
@@ -68,8 +68,7 @@ namespace GangOfFour.Template.RealWorld
         public override void Select()
         {
             string sql = "select CategoryName from Categories";
-            OleDbDataAdapter dataAdapter = new OleDbDataAdapter(
-                sql, connectionString);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(sql, connectionString);
 
             dataSet = new DataSet();
             dataAdapter.Fill(dataSet, "Categories");
@@ -96,8 +95,7 @@ namespace GangOfFour.Template.RealWorld
         public override void Select()
         {
             string sql = "select ProductName from Products";
-            OleDbDataAdapter dataAdapter = new OleDbDataAdapter(
-                sql, connectionString);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(sql, connectionString);
 
             dataSet = new DataSet();
             dataAdapter.Fill(dataSet, "Products");

@@ -79,7 +79,7 @@ namespace GangOfFour.Strategy.Structural
     /// </summary>
     class Context
     {
-        private Strategy _strategy;
+        private readonly Strategy _strategy;
 
         // Constructor
         public Context(Strategy strategy)

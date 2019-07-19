@@ -178,9 +178,9 @@ namespace GangOfFour.Builder.NETOptimized
     /// </summary>
     class Vehicle
     {
-        private VehicleType _vehicleType;
+        private readonly VehicleType _vehicleType;
 
-        private Dictionary<PartType, string> _parts =
+        private readonly Dictionary<PartType, string> _parts =
           new Dictionary<PartType, string>();
 
         // Constructor

@@ -68,7 +68,7 @@ namespace GangOfFour.Memento.Structural
     /// </summary>
     class Memento
     {
-        private string _state;
+        private readonly string _state;
 
         // Constructor
         public Memento(string state)

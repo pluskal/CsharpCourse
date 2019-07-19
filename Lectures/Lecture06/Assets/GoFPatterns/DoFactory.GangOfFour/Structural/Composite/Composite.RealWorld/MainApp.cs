@@ -95,7 +95,7 @@ namespace GangOfFour.Composite.RealWorld
     /// </summary>
     class CompositeElement : DrawingElement
     {
-        private List<DrawingElement> elements = 
+        private readonly List<DrawingElement> elements = 
             new List<DrawingElement>();
 
         // Constructor

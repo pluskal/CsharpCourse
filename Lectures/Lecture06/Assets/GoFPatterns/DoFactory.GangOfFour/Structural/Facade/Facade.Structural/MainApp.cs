@@ -72,10 +72,10 @@ namespace GangOfFour.Facade.Structural
     /// </summary>
     class Facade
     {
-        private SubSystemOne _one;
-        private SubSystemTwo _two;
-        private SubSystemThree _three;
-        private SubSystemFour _four;
+        private readonly SubSystemOne _one;
+        private readonly SubSystemTwo _two;
+        private readonly SubSystemThree _three;
+        private readonly SubSystemFour _four;
 
         public Facade()
         {

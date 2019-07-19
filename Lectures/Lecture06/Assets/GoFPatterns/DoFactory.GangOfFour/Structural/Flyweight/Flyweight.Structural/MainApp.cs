@@ -44,7 +44,7 @@ namespace GangOfFour.Flyweight.Structural
     /// </summary>
     class FlyweightFactory
     {
-        private Hashtable flyweights = new Hashtable();
+        private readonly Hashtable flyweights = new Hashtable();
 
         // Constructor
         public FlyweightFactory()

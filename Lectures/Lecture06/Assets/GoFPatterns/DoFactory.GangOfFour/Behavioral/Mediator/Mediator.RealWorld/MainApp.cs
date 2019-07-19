@@ -57,7 +57,7 @@ namespace GangOfFour.Mediator.RealWorld
     /// </summary>
     class Chatroom : AbstractChatroom
     {
-        private Dictionary<string,Participant> _participants = 
+        private readonly Dictionary<string,Participant> _participants = 
             new Dictionary<string,Participant>();
 
         public override void Register(Participant participant)
@@ -88,7 +88,7 @@ namespace GangOfFour.Mediator.RealWorld
     class Participant
     {
         private Chatroom _chatroom;
-        private string _name;
+        private readonly string _name;
 
         // Constructor
         public Participant(string name)

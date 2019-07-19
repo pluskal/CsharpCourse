@@ -126,7 +126,7 @@ namespace GangOfFour.Bridge.RealWorld
     /// </summary>
     class CustomersData : DataObject
     {
-        private List<string> _customers = new List<string>();
+        private readonly List<string> _customers = new List<string>();
         private int _current = 0;
 
         public CustomersData()

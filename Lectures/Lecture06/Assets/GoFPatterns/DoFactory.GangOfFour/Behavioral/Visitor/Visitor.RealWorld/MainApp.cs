@@ -128,7 +128,7 @@ namespace GangOfFour.Visitor.RealWorld
     /// </summary>
     class Employees
     {
-        private List<Employee> _employees = new List<Employee>();
+        private readonly List<Employee> _employees = new List<Employee>();
 
         public void Attach(Employee employee)
         {

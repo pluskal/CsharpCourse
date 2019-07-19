@@ -40,7 +40,7 @@ namespace GangOfFour.Flyweight.NETOptimized
     /// </summary>
     class CharacterFactory
     {
-        private Dictionary<char, Character> _characters =
+        private readonly Dictionary<char, Character> _characters =
                        new Dictionary<char, Character>();
 
         // Character indexer

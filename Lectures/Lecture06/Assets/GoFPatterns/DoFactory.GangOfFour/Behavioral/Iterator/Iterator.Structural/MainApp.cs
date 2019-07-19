@@ -50,7 +50,7 @@ namespace GangOfFour.Iterator.Structural
     /// </summary>
     class ConcreteAggregate : Aggregate
     {
-        private ArrayList _items = new ArrayList();
+        private readonly ArrayList _items = new ArrayList();
 
         public override Iterator CreateIterator()
         {
@@ -87,7 +87,7 @@ namespace GangOfFour.Iterator.Structural
     /// </summary>
     class ConcreteIterator : Iterator
     {
-        private ConcreteAggregate _aggregate;
+        private readonly ConcreteAggregate _aggregate;
         private int _current = 0;
 
         // Constructor

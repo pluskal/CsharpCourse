@@ -50,7 +50,7 @@ namespace GangOfFour.Iterator.RealWorld
     /// </summary>
     class Item
     {
-        private string _name;
+        private readonly string _name;
 
         // Constructor
         public Item(string name)
@@ -78,7 +78,7 @@ namespace GangOfFour.Iterator.RealWorld
     /// </summary>
     class Collection : IAbstractCollection
     {
-        private ArrayList _items = new ArrayList();
+        private readonly ArrayList _items = new ArrayList();
 
         public Iterator CreateIterator()
         {
@@ -115,7 +115,7 @@ namespace GangOfFour.Iterator.RealWorld
     /// </summary>
     class Iterator : IAbstractIterator
     {
-        private Collection _collection;
+        private readonly Collection _collection;
         private int _current = 0;
         private int _step = 1;
 

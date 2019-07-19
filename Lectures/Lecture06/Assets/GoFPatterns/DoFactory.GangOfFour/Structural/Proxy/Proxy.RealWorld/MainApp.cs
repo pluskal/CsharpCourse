@@ -54,7 +54,7 @@ namespace GangOfFour.Proxy.RealWorld
     /// </summary>
     class MathProxy : IMath
     {
-        private Math _math = new Math();
+        private readonly Math _math = new Math();
 
         public double Add(double x, double y)
         {

@@ -33,7 +33,7 @@ namespace GangOfFour.Prototype.Structural
     /// </summary>
     abstract class Prototype
     {
-        private string _id;
+        private readonly string _id;
 
         // Constructor
         public Prototype(string id)

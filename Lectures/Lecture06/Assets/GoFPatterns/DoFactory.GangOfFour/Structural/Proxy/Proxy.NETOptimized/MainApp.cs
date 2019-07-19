@@ -1,5 +1,4 @@
 using System;
-using System.Runtime.Remoting;
 
 namespace GangOfFour.Proxy.NETOptimized
 {
@@ -42,7 +41,7 @@ namespace GangOfFour.Proxy.NETOptimized
     /// <summary>
     /// The 'RealSubject' class
     /// </summary>
-    class Math : MarshalByRefObject, IMath
+    class Math : IMath
     {
         public double Add(double x, double y) { return x + y; }
         public double Sub(double x, double y) { return x - y; }
@@ -55,19 +54,12 @@ namespace GangOfFour.Proxy.NETOptimized
     /// </summary>
     class MathProxy : IMath
     {
-        private Math _math;
+        private readonly Math _math;
 
         // Constructor
         public MathProxy()
         {
-            // Create Math instance in a different AppDomain
-            AppDomain ad =
-                AppDomain.CreateDomain("MathDomain", null, null);
-
-            ObjectHandle o = ad.CreateInstance(
-                "DoFactory.GangOfFour.Proxy.NETOptimized",
-                "DoFactory.GangOfFour.Proxy.NETOptimized.Math");
-            _math = (Math)o.Unwrap();
+            _math = new Math();
         }
 
         public double Add(double x, double y)

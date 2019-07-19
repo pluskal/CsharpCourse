@@ -171,8 +171,8 @@ namespace GangOfFour.Builder.RealWorld
     /// </summary>
     class Vehicle
     {
-        private string _vehicleType;
-        private Dictionary<string,string> _parts = 
+        private readonly string _vehicleType;
+        private readonly Dictionary<string,string> _parts = 
             new Dictionary<string,string>();
 
         // Constructor

@@ -127,8 +127,8 @@ namespace GangOfFour.Abstract.NETOptimized
     /// </summary>
     class AnimalWorld
     {
-        private IHerbivore _herbivore;
-        private ICarnivore _carnivore;
+        private readonly IHerbivore _herbivore;
+        private readonly ICarnivore _carnivore;
 
         /// <summary>
         /// Contructor of Animalworld

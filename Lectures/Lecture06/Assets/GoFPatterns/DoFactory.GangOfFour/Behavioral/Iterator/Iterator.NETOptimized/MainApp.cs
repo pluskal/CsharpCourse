@@ -61,7 +61,7 @@ namespace GangOfFour.Iterator.NETOptimized
     /// <typeparam name="T">Collection item type</typeparam>
     class ItemCollection<T> : IEnumerable<T>
     {
-        private List<T> _items = new List<T>();
+        private readonly List<T> _items = new List<T>();
 
         public void Add(T t)
         {

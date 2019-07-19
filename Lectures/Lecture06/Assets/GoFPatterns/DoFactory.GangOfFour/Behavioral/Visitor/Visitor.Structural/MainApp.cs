@@ -123,7 +123,7 @@ namespace GangOfFour.Visitor.Structural
     /// </summary>
     class ObjectStructure
     {
-        private List<Element> _elements = new List<Element>();
+        private readonly List<Element> _elements = new List<Element>();
 
         public void Attach(Element element)
         {

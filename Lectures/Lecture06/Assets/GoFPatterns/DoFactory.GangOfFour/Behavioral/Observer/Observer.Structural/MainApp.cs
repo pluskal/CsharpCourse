@@ -35,7 +35,7 @@ namespace GangOfFour.Observer.Structural
     /// </summary>
     abstract class Subject
     {
-        private List<Observer> _observers = new List<Observer>();
+        private readonly List<Observer> _observers = new List<Observer>();
 
         public void Attach(Observer observer)
         {
@@ -84,7 +84,7 @@ namespace GangOfFour.Observer.Structural
     /// </summary>
     class ConcreteObserver : Observer
     {
-        private string _name;
+        private readonly string _name;
         private string _observerState;
         private ConcreteSubject _subject;
 

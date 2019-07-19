@@ -86,7 +86,7 @@ namespace GangOfFour.Strategy.RealWorld
     /// </summary>
     class SortedList
     {
-        private List<string> _list = new List<string>();
+        private readonly List<string> _list = new List<string>();
         private SortStrategy _sortstrategy;
 
         public void SetSortStrategy(SortStrategy sortstrategy)

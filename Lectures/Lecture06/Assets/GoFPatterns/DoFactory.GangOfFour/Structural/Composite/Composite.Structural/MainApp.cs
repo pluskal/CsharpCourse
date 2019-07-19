@@ -62,7 +62,7 @@ namespace GangOfFour.Composite.Structural
     /// </summary>
     class Composite : Component
     {
-        private List<Component> _children = new List<Component>();
+        private readonly List<Component> _children = new List<Component>();
 
         // Constructor
         public Composite(string name)

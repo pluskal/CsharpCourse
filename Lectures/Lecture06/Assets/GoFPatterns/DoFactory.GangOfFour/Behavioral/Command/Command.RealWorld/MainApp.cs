@@ -50,7 +50,7 @@ namespace GangOfFour.Command.RealWorld
     {
         private char _operator;
         private int _operand;
-        private Calculator _calculator;
+        private readonly Calculator _calculator;
 
         // Constructor
         public CalculatorCommand(Calculator calculator,
@@ -128,8 +128,8 @@ namespace GangOfFour.Command.RealWorld
     class User
     {
         // Initializers
-        private Calculator _calculator = new Calculator();
-        private List<Command> _commands = new List<Command>();
+        private readonly Calculator _calculator = new Calculator();
+        private readonly List<Command> _commands = new List<Command>();
         private int _current = 0;
 
         public void Redo(int levels)
