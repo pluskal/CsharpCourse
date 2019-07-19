@@ -11,191 +11,191 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{9233149F-C5BB-4A0D-A119-18147DE4C439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Singleton.NETOptimized", "Creational\Singleton\DoFactory.GangOfFour.Singleton.NETOptimized\DoFactory.GangOfFour.Singleton.NETOptimized.csproj", "{311E3E0A-ECF7-4627-94FF-FB938E644AB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.NETOptimized", "Creational\Singleton\Singleton.NETOptimized\Singleton.NETOptimized.csproj", "{311E3E0A-ECF7-4627-94FF-FB938E644AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Singleton.RealWorld", "Creational\Singleton\DoFactory.GangOfFour.Singleton.RealWorld\DoFactory.GangOfFour.Singleton.RealWorld.csproj", "{6A0948F9-7D5A-4DB2-BF86-5D402DE57E0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.RealWorld", "Creational\Singleton\Singleton.RealWorld\Singleton.RealWorld.csproj", "{6A0948F9-7D5A-4DB2-BF86-5D402DE57E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Singleton.Structural", "Creational\Singleton\DoFactory.GangOfFour.Singleton.Structural\DoFactory.GangOfFour.Singleton.Structural.csproj", "{8AA8E5DB-8D25-46CC-9F42-1536F901A063}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Structural", "Creational\Singleton\Singleton.Structural\Singleton.Structural.csproj", "{8AA8E5DB-8D25-46CC-9F42-1536F901A063}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{3F7D4A61-5440-4B11-A54E-50925636303C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Factory.NETOptimized", "Creational\Factory\DoFactory.GangOfFour.Factory.NETOptimized\DoFactory.GangOfFour.Factory.NETOptimized.csproj", "{82E62A5A-7D87-4074-A6CE-853B5682186F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.NETOptimized", "Creational\Factory\Factory.NETOptimized\Factory.NETOptimized.csproj", "{82E62A5A-7D87-4074-A6CE-853B5682186F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Factory.RealWorld", "Creational\Factory\DoFactory.GangOfFour.Factory.RealWorld\DoFactory.GangOfFour.Factory.RealWorld.csproj", "{474EDD86-3F59-4BE7-959D-B0E75ABC8E6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.RealWorld", "Creational\Factory\Factory.RealWorld\Factory.RealWorld.csproj", "{474EDD86-3F59-4BE7-959D-B0E75ABC8E6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Factory.Structural", "Creational\Factory\DoFactory.GangOfFour.Factory.Structural\DoFactory.GangOfFour.Factory.Structural.csproj", "{E6DCA618-3F17-4DA1-A29A-2018E99E3BAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Structural", "Creational\Factory\Factory.Structural\Factory.Structural.csproj", "{E6DCA618-3F17-4DA1-A29A-2018E99E3BAE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{0D42E085-C865-4915-9954-953434BCA27F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Prototype.NETOptimized", "Creational\Prototype\DoFactory.GangOfFour.Prototype.NETOptimized\DoFactory.GangOfFour.Prototype.NETOptimized.csproj", "{985B4B2D-DCAC-463D-9587-C7495795B988}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.NETOptimized", "Creational\Prototype\Prototype.NETOptimized\Prototype.NETOptimized.csproj", "{985B4B2D-DCAC-463D-9587-C7495795B988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Prototype.RealWorld", "Creational\Prototype\DoFactory.GangOfFour.Prototype.RealWorld\DoFactory.GangOfFour.Prototype.RealWorld.csproj", "{2552B02D-2DAE-4D8E-A134-14D04FC72C66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.RealWorld", "Creational\Prototype\Prototype.RealWorld\Prototype.RealWorld.csproj", "{2552B02D-2DAE-4D8E-A134-14D04FC72C66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Prototype.Structural", "Creational\Prototype\DoFactory.GangOfFour.Prototype.Structural\DoFactory.GangOfFour.Prototype.Structural.csproj", "{AED04157-1297-48EC-B982-2B09D7CECABB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.Structural", "Creational\Prototype\Prototype.Structural\Prototype.Structural.csproj", "{AED04157-1297-48EC-B982-2B09D7CECABB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{30D782FC-BB0C-4325-B3B9-BCF68A67D3F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Builder.NETOptimized", "Creational\Builder\DoFactory.GangOfFour.Builder.NETOptimized\DoFactory.GangOfFour.Builder.NETOptimized.csproj", "{5D17E696-CADB-429B-A41E-6A8844B17F31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.NETOptimized", "Creational\Builder\Builder.NETOptimized\Builder.NETOptimized.csproj", "{5D17E696-CADB-429B-A41E-6A8844B17F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Builder.RealWorld", "Creational\Builder\DoFactory.GangOfFour.Builder.RealWorld\DoFactory.GangOfFour.Builder.RealWorld.csproj", "{49F613E0-AD2A-4C60-8AEC-A9511F3677CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.RealWorld", "Creational\Builder\Builder.RealWorld\Builder.RealWorld.csproj", "{49F613E0-AD2A-4C60-8AEC-A9511F3677CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Builder.Structural", "Creational\Builder\DoFactory.GangOfFour.Builder.Structural\DoFactory.GangOfFour.Builder.Structural.csproj", "{C9DF2754-C4C9-43B3-ADF1-952612045B50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.Structural", "Creational\Builder\Builder.Structural\Builder.Structural.csproj", "{C9DF2754-C4C9-43B3-ADF1-952612045B50}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{2CA96CF7-57E7-476A-B66C-4AC4DBF7782D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Abstract.NETOptimized", "Creational\AbstractFactory\DoFactory.GangOfFour.Abstract.NETOptimized\DoFactory.GangOfFour.Abstract.NETOptimized.csproj", "{0C486589-BCDD-432F-97FA-757768AF21BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.NETOptimized", "Creational\AbstractFactory\Abstract.NETOptimized\Abstract.NETOptimized.csproj", "{0C486589-BCDD-432F-97FA-757768AF21BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Abstract.RealWorld", "Creational\AbstractFactory\DoFactory.GangOfFour.Abstract.RealWorld\DoFactory.GangOfFour.Abstract.RealWorld.csproj", "{DE3F0AF0-A0B1-4B46-A856-63BF4B5CB922}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.RealWorld", "Creational\AbstractFactory\Abstract.RealWorld\Abstract.RealWorld.csproj", "{DE3F0AF0-A0B1-4B46-A856-63BF4B5CB922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Abstract.Structural", "Creational\AbstractFactory\DoFactory.GangOfFour.Abstract.Structural\DoFactory.GangOfFour.Abstract.Structural.csproj", "{9B109D29-D245-40BB-B0D2-5EDFB50C781F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.Structural", "Creational\AbstractFactory\Abstract.Structural\Abstract.Structural.csproj", "{9B109D29-D245-40BB-B0D2-5EDFB50C781F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{AA26A812-CB90-4EBC-A284-0088FEE7379C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{A0CAF50B-D0E8-4942-9D5E-143D0959739B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Chain.NETOptimized", "Behavioral\ChainOfResponsibility\DoFactory.GangOfFour.Chain.NETOptimized\DoFactory.GangOfFour.Chain.NETOptimized.csproj", "{C0716291-8DFC-4CDC-9152-5DC83C517B39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain.NETOptimized", "Behavioral\ChainOfResponsibility\Chain.NETOptimized\Chain.NETOptimized.csproj", "{C0716291-8DFC-4CDC-9152-5DC83C517B39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Chain.RealWorld", "Behavioral\ChainOfResponsibility\DoFactory.GangOfFour.Chain.RealWorld\DoFactory.GangOfFour.Chain.RealWorld.csproj", "{035DDC7F-C5B3-488E-8662-945AFBBD4679}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain.RealWorld", "Behavioral\ChainOfResponsibility\Chain.RealWorld\Chain.RealWorld.csproj", "{035DDC7F-C5B3-488E-8662-945AFBBD4679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Chain.Structural", "Behavioral\ChainOfResponsibility\DoFactory.GangOfFour.Chain.Structural\DoFactory.GangOfFour.Chain.Structural.csproj", "{5E25F674-CDC7-46A4-BBDF-7AD52D3EE744}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain.Structural", "Behavioral\ChainOfResponsibility\Chain.Structural\Chain.Structural.csproj", "{5E25F674-CDC7-46A4-BBDF-7AD52D3EE744}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{AE8362A2-06E1-4F2D-8F67-8461AD811C07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Command.NETOptimized", "Behavioral\Command\DoFactory.GangOfFour.Command.NETOptimized\DoFactory.GangOfFour.Command.NETOptimized.csproj", "{12FAEA0A-C32F-4A01-86F3-3BC68E55D5AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.NETOptimized", "Behavioral\Command\Command.NETOptimized\Command.NETOptimized.csproj", "{12FAEA0A-C32F-4A01-86F3-3BC68E55D5AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Command.RealWorld", "Behavioral\Command\DoFactory.GangOfFour.Command.RealWorld\DoFactory.GangOfFour.Command.RealWorld.csproj", "{E6EEC99C-BD1B-4374-A40A-02F4FCB0305F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.RealWorld", "Behavioral\Command\Command.RealWorld\Command.RealWorld.csproj", "{E6EEC99C-BD1B-4374-A40A-02F4FCB0305F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Command.Structural", "Behavioral\Command\DoFactory.GangOfFour.Command.Structural\DoFactory.GangOfFour.Command.Structural.csproj", "{517B54C4-D868-453A-B259-6CB0CBB5F808}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Structural", "Behavioral\Command\Command.Structural\Command.Structural.csproj", "{517B54C4-D868-453A-B259-6CB0CBB5F808}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interpreter", "Interpreter", "{9B14EF0D-96A8-493C-9EA6-05488E18C3DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Interpreter.NETOptimized", "Behavioral\Interpreter\DoFactory.GangOfFour.Interpreter.NETOptimized\DoFactory.GangOfFour.Interpreter.NETOptimized.csproj", "{64F572E6-44ED-4161-B517-808F4C103C08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter.NETOptimized", "Behavioral\Interpreter\Interpreter.NETOptimized\Interpreter.NETOptimized.csproj", "{64F572E6-44ED-4161-B517-808F4C103C08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Interpreter.RealWorld", "Behavioral\Interpreter\DoFactory.GangOfFour.Interpreter.RealWorld\DoFactory.GangOfFour.Interpreter.RealWorld.csproj", "{20CB6C88-9AAF-4304-B4CD-B3D4C99A95AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter.RealWorld", "Behavioral\Interpreter\Interpreter.RealWorld\Interpreter.RealWorld.csproj", "{20CB6C88-9AAF-4304-B4CD-B3D4C99A95AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Interpreter.Structural", "Behavioral\Interpreter\DoFactory.GangOfFour.Interpreter.Structural\DoFactory.GangOfFour.Interpreter.Structural.csproj", "{510179C8-D9C5-4354-AC6B-63DC23AC2E21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter.Structural", "Behavioral\Interpreter\Interpreter.Structural\Interpreter.Structural.csproj", "{510179C8-D9C5-4354-AC6B-63DC23AC2E21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{239F2267-6219-48A5-A4E2-7125B188E8A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Iterator.NETOptimized", "Behavioral\Iterator\DoFactory.GangOfFour.Iterator.NETOptimized\DoFactory.GangOfFour.Iterator.NETOptimized.csproj", "{F329255B-951D-4846-B1C3-CFDBD19BA54B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator.NETOptimized", "Behavioral\Iterator\Iterator.NETOptimized\Iterator.NETOptimized.csproj", "{F329255B-951D-4846-B1C3-CFDBD19BA54B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Iterator.RealWorld", "Behavioral\Iterator\DoFactory.GangOfFour.Iterator.RealWorld\DoFactory.GangOfFour.Iterator.RealWorld.csproj", "{CDB14416-360B-47A6-A2D5-278212346E2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator.RealWorld", "Behavioral\Iterator\Iterator.RealWorld\Iterator.RealWorld.csproj", "{CDB14416-360B-47A6-A2D5-278212346E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Iterator.Structural", "Behavioral\Iterator\DoFactory.GangOfFour.Iterator.Structural\DoFactory.GangOfFour.Iterator.Structural.csproj", "{9F2DF624-F278-4471-8A39-B21C01FF42AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator.Structural", "Behavioral\Iterator\Iterator.Structural\Iterator.Structural.csproj", "{9F2DF624-F278-4471-8A39-B21C01FF42AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{28E7236A-61BC-48F5-AFF8-A8CB49BD041E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Mediator.NETOptimized", "Behavioral\Mediator\DoFactory.GangOfFour.Mediator.NETOptimized\DoFactory.GangOfFour.Mediator.NETOptimized.csproj", "{88B268AF-CAD2-48ED-B388-6A6B8098397C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.NETOptimized", "Behavioral\Mediator\Mediator.NETOptimized\Mediator.NETOptimized.csproj", "{88B268AF-CAD2-48ED-B388-6A6B8098397C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Mediator.RealWorld", "Behavioral\Mediator\DoFactory.GangOfFour.Mediator.RealWorld\DoFactory.GangOfFour.Mediator.RealWorld.csproj", "{671EA466-1EF8-47C4-8E3D-6E7575408929}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.RealWorld", "Behavioral\Mediator\Mediator.RealWorld\Mediator.RealWorld.csproj", "{671EA466-1EF8-47C4-8E3D-6E7575408929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Mediator.Structural", "Behavioral\Mediator\DoFactory.GangOfFour.Mediator.Structural\DoFactory.GangOfFour.Mediator.Structural.csproj", "{59C0BFA6-6A37-4EE3-A14E-AC81EC422F74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Structural", "Behavioral\Mediator\Mediator.Structural\Mediator.Structural.csproj", "{59C0BFA6-6A37-4EE3-A14E-AC81EC422F74}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{30001065-87AA-4BE3-AA89-30BAC029FCE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Memento.NETOptimized", "Behavioral\Memento\DoFactory.GangOfFour.Memento.NETOptimized\DoFactory.GangOfFour.Memento.NETOptimized.csproj", "{BB7C8CF9-667E-43A5-B29A-07533C2A68D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.NETOptimized", "Behavioral\Memento\Memento.NETOptimized\Memento.NETOptimized.csproj", "{BB7C8CF9-667E-43A5-B29A-07533C2A68D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Memento.RealWorld", "Behavioral\Memento\DoFactory.GangOfFour.Memento.RealWorld\DoFactory.GangOfFour.Memento.RealWorld.csproj", "{F08F3B8C-26C6-4A3D-8F01-FB786E33F2CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.RealWorld", "Behavioral\Memento\Memento.RealWorld\Memento.RealWorld.csproj", "{F08F3B8C-26C6-4A3D-8F01-FB786E33F2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Memento.Structural", "Behavioral\Memento\DoFactory.GangOfFour.Memento.Structural\DoFactory.GangOfFour.Memento.Structural.csproj", "{7B627A70-9142-46C9-B561-02A242E054B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Structural", "Behavioral\Memento\Memento.Structural\Memento.Structural.csproj", "{7B627A70-9142-46C9-B561-02A242E054B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{24BA7D1F-9BA1-4A03-A498-B50E79D78CE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Observer.NETOptimized", "Behavioral\Observer\DoFactory.GangOfFour.Observer.NETOptimized\DoFactory.GangOfFour.Observer.NETOptimized.csproj", "{B9A83C83-2A26-4C32-B280-6C24493697C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.NETOptimized", "Behavioral\Observer\Observer.NETOptimized\Observer.NETOptimized.csproj", "{B9A83C83-2A26-4C32-B280-6C24493697C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Observer.RealWorld", "Behavioral\Observer\DoFactory.GangOfFour.Observer.RealWorld\DoFactory.GangOfFour.Observer.RealWorld.csproj", "{DAF6EA8C-B0D3-4BB5-9996-4587A86590E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.RealWorld", "Behavioral\Observer\Observer.RealWorld\Observer.RealWorld.csproj", "{DAF6EA8C-B0D3-4BB5-9996-4587A86590E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Observer.Structural", "Behavioral\Observer\DoFactory.GangOfFour.Observer.Structural\DoFactory.GangOfFour.Observer.Structural.csproj", "{A6621687-73AA-4578-AF43-DEA11489BE30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Structural", "Behavioral\Observer\Observer.Structural\Observer.Structural.csproj", "{A6621687-73AA-4578-AF43-DEA11489BE30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{A4732775-190B-4829-AABF-3873A9F4BE04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.State.NETOptimized", "Behavioral\State\DoFactory.GangOfFour.State.NETOptimized\DoFactory.GangOfFour.State.NETOptimized.csproj", "{A416BB5C-7F18-419E-9F6D-AB26949836F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.NETOptimized", "Behavioral\State\State.NETOptimized\State.NETOptimized.csproj", "{A416BB5C-7F18-419E-9F6D-AB26949836F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.State.RealWorld", "Behavioral\State\DoFactory.GangOfFour.State.RealWorld\DoFactory.GangOfFour.State.RealWorld.csproj", "{FDCCE772-71F3-4343-8537-30FBE33B0503}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.RealWorld", "Behavioral\State\State.RealWorld\State.RealWorld.csproj", "{FDCCE772-71F3-4343-8537-30FBE33B0503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.State.Structural", "Behavioral\State\DoFactory.GangOfFour.State.Structural\DoFactory.GangOfFour.State.Structural.csproj", "{E380597B-8637-45E7-ADFB-59C4AB0435AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.Structural", "Behavioral\State\State.Structural\State.Structural.csproj", "{E380597B-8637-45E7-ADFB-59C4AB0435AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{FA5B054E-8AA6-4560-A3D2-EB677888648A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Strategy.NETOptimized", "Behavioral\Strategy\DoFactory.GangOfFour.Strategy.NETOptimized\DoFactory.GangOfFour.Strategy.NETOptimized.csproj", "{568977A8-6DE0-431B-8FF5-F05FBEA70ABE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.NETOptimized", "Behavioral\Strategy\Strategy.NETOptimized\Strategy.NETOptimized.csproj", "{568977A8-6DE0-431B-8FF5-F05FBEA70ABE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Strategy.RealWorld", "Behavioral\Strategy\DoFactory.GangOfFour.Strategy.RealWorld\DoFactory.GangOfFour.Strategy.RealWorld.csproj", "{6B2B9CA5-13D6-4451-A422-1F7FB0FB30A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.RealWorld", "Behavioral\Strategy\Strategy.RealWorld\Strategy.RealWorld.csproj", "{6B2B9CA5-13D6-4451-A422-1F7FB0FB30A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Strategy.Structural", "Behavioral\Strategy\DoFactory.GangOfFour.Strategy.Structural\DoFactory.GangOfFour.Strategy.Structural.csproj", "{30A80A42-F07B-4FE4-9BB3-8E360F7B8A43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.Structural", "Behavioral\Strategy\Strategy.Structural\Strategy.Structural.csproj", "{30A80A42-F07B-4FE4-9BB3-8E360F7B8A43}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{D37B82DE-B195-43D7-A797-3E21F24B5AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Template.NETOptimized", "Behavioral\TemplateMethod\DoFactory.GangOfFour.Template.NETOptimized\DoFactory.GangOfFour.Template.NETOptimized.csproj", "{CDBD8120-3279-4B0D-8ECA-3AE479673FDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.NETOptimized", "Behavioral\TemplateMethod\Template.NETOptimized\Template.NETOptimized.csproj", "{CDBD8120-3279-4B0D-8ECA-3AE479673FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Template.RealWorld", "Behavioral\TemplateMethod\DoFactory.GangOfFour.Template.RealWorld\DoFactory.GangOfFour.Template.RealWorld.csproj", "{4D461028-CDAD-4B46-94A0-47E09004FDED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.RealWorld", "Behavioral\TemplateMethod\Template.RealWorld\Template.RealWorld.csproj", "{4D461028-CDAD-4B46-94A0-47E09004FDED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Template.Structural", "Behavioral\TemplateMethod\DoFactory.GangOfFour.Template.Structural\DoFactory.GangOfFour.Template.Structural.csproj", "{A23D3E84-1204-4BB9-B6D7-5C65A87B5490}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Structural", "Behavioral\TemplateMethod\Template.Structural\Template.Structural.csproj", "{A23D3E84-1204-4BB9-B6D7-5C65A87B5490}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{3658D063-714F-4006-B1D6-9C6B8E0D2A53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Visitor.NETOptimized", "Behavioral\Visitor\DoFactory.GangOfFour.Visitor.NETOptimized\DoFactory.GangOfFour.Visitor.NETOptimized.csproj", "{2B8A6982-0B17-4B47-BC1F-D10629C49ABD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor.NETOptimized", "Behavioral\Visitor\Visitor.NETOptimized\Visitor.NETOptimized.csproj", "{2B8A6982-0B17-4B47-BC1F-D10629C49ABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Visitor.RealWorld", "Behavioral\Visitor\DoFactory.GangOfFour.Visitor.RealWorld\DoFactory.GangOfFour.Visitor.RealWorld.csproj", "{653F959B-35BD-4618-8025-0EC139D43B6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor.RealWorld", "Behavioral\Visitor\Visitor.RealWorld\Visitor.RealWorld.csproj", "{653F959B-35BD-4618-8025-0EC139D43B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Visitor.Structural", "Behavioral\Visitor\DoFactory.GangOfFour.Visitor.Structural\DoFactory.GangOfFour.Visitor.Structural.csproj", "{E221F0FB-F6CC-4657-8996-2061B2B4CB6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor.Structural", "Behavioral\Visitor\Visitor.Structural\Visitor.Structural.csproj", "{E221F0FB-F6CC-4657-8996-2061B2B4CB6A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{710D38FE-FC09-4543-8050-EDB17E565C85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{861394D4-A7B2-4BE6-82F7-9F5DDA367C5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Adapter.NETOptimized", "Structural\Adapter\DoFactory.GangOfFour.Adapter.NETOptimized\DoFactory.GangOfFour.Adapter.NETOptimized.csproj", "{CFAC43A3-00EC-41E9-BD00-ED960A821305}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.NETOptimized", "Structural\Adapter\Adapter.NETOptimized\Adapter.NETOptimized.csproj", "{CFAC43A3-00EC-41E9-BD00-ED960A821305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Adapter.RealWorld", "Structural\Adapter\DoFactory.GangOfFour.Adapter.RealWorld\DoFactory.GangOfFour.Adapter.RealWorld.csproj", "{489B9107-F376-48F8-9F07-11585305D87F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.RealWorld", "Structural\Adapter\Adapter.RealWorld\Adapter.RealWorld.csproj", "{489B9107-F376-48F8-9F07-11585305D87F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Adapter.Structural", "Structural\Adapter\DoFactory.GangOfFour.Adapter.Structural\DoFactory.GangOfFour.Adapter.Structural.csproj", "{17209C29-276A-4519-B5DB-CD84FF4F8DA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Structural", "Structural\Adapter\Adapter.Structural\Adapter.Structural.csproj", "{17209C29-276A-4519-B5DB-CD84FF4F8DA3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{29044CA7-294E-4D23-9200-BDC2875551FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Bridge.NETOptimized", "Structural\Bridge\DoFactory.GangOfFour.Bridge.NETOptimized\DoFactory.GangOfFour.Bridge.NETOptimized.csproj", "{A553068E-A534-4461-8ECA-BC412B4A6A54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.NETOptimized", "Structural\Bridge\Bridge.NETOptimized\Bridge.NETOptimized.csproj", "{A553068E-A534-4461-8ECA-BC412B4A6A54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Bridge.RealWorld", "Structural\Bridge\DoFactory.GangOfFour.Bridge.RealWorld\DoFactory.GangOfFour.Bridge.RealWorld.csproj", "{9E36D9C5-341C-47A7-BD12-901541F8044D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.RealWorld", "Structural\Bridge\Bridge.RealWorld\Bridge.RealWorld.csproj", "{9E36D9C5-341C-47A7-BD12-901541F8044D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Bridge.Structural", "Structural\Bridge\DoFactory.GangOfFour.Bridge.Structural\DoFactory.GangOfFour.Bridge.Structural.csproj", "{57480011-21A5-4104-8F7D-D49264F82413}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Structural", "Structural\Bridge\Bridge.Structural\Bridge.Structural.csproj", "{57480011-21A5-4104-8F7D-D49264F82413}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{D522177D-1477-43BA-B4E9-E002EA675CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Composite.NETOptimized", "Structural\Composite\DoFactory.GangOfFour.Composite.NETOptimized\DoFactory.GangOfFour.Composite.NETOptimized.csproj", "{5BE9388B-27E3-41ED-B71A-B2E1AA84ADEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.NETOptimized", "Structural\Composite\Composite.NETOptimized\Composite.NETOptimized.csproj", "{5BE9388B-27E3-41ED-B71A-B2E1AA84ADEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Composite.RealWorld", "Structural\Composite\DoFactory.GangOfFour.Composite.RealWorld\DoFactory.GangOfFour.Composite.RealWorld.csproj", "{1B54CB72-D789-49A5-AF26-8E68355FBF1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.RealWorld", "Structural\Composite\Composite.RealWorld\Composite.RealWorld.csproj", "{1B54CB72-D789-49A5-AF26-8E68355FBF1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Composite.Structural", "Structural\Composite\DoFactory.GangOfFour.Composite.Structural\DoFactory.GangOfFour.Composite.Structural.csproj", "{E71736AE-3CD3-42B2-85AC-5F35B015A6A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Structural", "Structural\Composite\Composite.Structural\Composite.Structural.csproj", "{E71736AE-3CD3-42B2-85AC-5F35B015A6A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{E2AD5AB9-BA66-4960-8257-EF76F1542196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Decorator.NETOptimized", "Structural\Decorator\DoFactory.GangOfFour.Decorator.NETOptimized\DoFactory.GangOfFour.Decorator.NETOptimized.csproj", "{B26F6FE2-1C67-4765-AE52-7105466FEBFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.NETOptimized", "Structural\Decorator\Decorator.NETOptimized\Decorator.NETOptimized.csproj", "{B26F6FE2-1C67-4765-AE52-7105466FEBFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Decorator.RealWorld", "Structural\Decorator\DoFactory.GangOfFour.Decorator.RealWorld\DoFactory.GangOfFour.Decorator.RealWorld.csproj", "{EA2C163D-B2DC-4915-B6FC-77256ACA2B3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.RealWorld", "Structural\Decorator\Decorator.RealWorld\Decorator.RealWorld.csproj", "{EA2C163D-B2DC-4915-B6FC-77256ACA2B3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Decorator.Structural", "Structural\Decorator\DoFactory.GangOfFour.Decorator.Structural\DoFactory.GangOfFour.Decorator.Structural.csproj", "{0F5A43D4-D8B6-4BD1-BBB4-D9245B08E624}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Structural", "Structural\Decorator\Decorator.Structural\Decorator.Structural.csproj", "{0F5A43D4-D8B6-4BD1-BBB4-D9245B08E624}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{1B201148-D444-4056-BAF1-A17AE275F9E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Facade.NETOptimized", "Structural\Facade\DoFactory.GangOfFour.Facade.NETOptimized\DoFactory.GangOfFour.Facade.NETOptimized.csproj", "{F69710A2-A145-46DF-8AF3-0945917C87BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.NETOptimized", "Structural\Facade\Facade.NETOptimized\Facade.NETOptimized.csproj", "{F69710A2-A145-46DF-8AF3-0945917C87BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Facade.RealWorld", "Structural\Facade\DoFactory.GangOfFour.Facade.RealWorld\DoFactory.GangOfFour.Facade.RealWorld.csproj", "{4DD94229-5037-4C93-A1FF-BA9E010FD354}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.RealWorld", "Structural\Facade\Facade.RealWorld\Facade.RealWorld.csproj", "{4DD94229-5037-4C93-A1FF-BA9E010FD354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Facade.Structural", "Structural\Facade\DoFactory.GangOfFour.Facade.Structural\DoFactory.GangOfFour.Facade.Structural.csproj", "{D284A0D6-E5D3-498A-88D4-7FB6DC67C38E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Structural", "Structural\Facade\Facade.Structural\Facade.Structural.csproj", "{D284A0D6-E5D3-498A-88D4-7FB6DC67C38E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{F1E463CB-8593-4C27-83DA-4ABF9CE52207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Flyweight.NETOptimized", "Structural\Flyweight\DoFactory.GangOfFour.Flyweight.NETOptimized\DoFactory.GangOfFour.Flyweight.NETOptimized.csproj", "{DA6E4859-AFD6-4F34-90F3-35FC4E0529EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.NETOptimized", "Structural\Flyweight\Flyweight.NETOptimized\Flyweight.NETOptimized.csproj", "{DA6E4859-AFD6-4F34-90F3-35FC4E0529EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Flyweight.RealWorld", "Structural\Flyweight\DoFactory.GangOfFour.Flyweight.RealWorld\DoFactory.GangOfFour.Flyweight.RealWorld.csproj", "{4D11DD7F-ADB7-4655-882A-9D2069F4EA41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.RealWorld", "Structural\Flyweight\Flyweight.RealWorld\Flyweight.RealWorld.csproj", "{4D11DD7F-ADB7-4655-882A-9D2069F4EA41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Flyweight.Structural", "Structural\Flyweight\DoFactory.GangOfFour.Flyweight.Structural\DoFactory.GangOfFour.Flyweight.Structural.csproj", "{A78F72EE-C196-4D04-B890-D374241D6667}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.Structural", "Structural\Flyweight\Flyweight.Structural\Flyweight.Structural.csproj", "{A78F72EE-C196-4D04-B890-D374241D6667}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{77D535BE-3D89-49BE-B219-E92D4BE4F9B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Proxy.NETOptimized", "Structural\Proxy\DoFactory.GangOfFour.Proxy.NETOptimized\DoFactory.GangOfFour.Proxy.NETOptimized.csproj", "{8CE5A3B9-7352-4BD9-95FE-8635202824C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.NETOptimized", "Structural\Proxy\Proxy.NETOptimized\Proxy.NETOptimized.csproj", "{8CE5A3B9-7352-4BD9-95FE-8635202824C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Proxy.RealWorld", "Structural\Proxy\DoFactory.GangOfFour.Proxy.RealWorld\DoFactory.GangOfFour.Proxy.RealWorld.csproj", "{245344C8-7AE2-4C67-91AA-03E6CFC2713A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.RealWorld", "Structural\Proxy\Proxy.RealWorld\Proxy.RealWorld.csproj", "{245344C8-7AE2-4C67-91AA-03E6CFC2713A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory.GangOfFour.Proxy.Structural", "Structural\Proxy\DoFactory.GangOfFour.Proxy.Structural\DoFactory.GangOfFour.Proxy.Structural.csproj", "{F2B89D93-5802-40C7-ABE4-88AA33556FE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.Structural", "Structural\Proxy\Proxy.Structural\Proxy.Structural.csproj", "{F2B89D93-5802-40C7-ABE4-88AA33556FE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
