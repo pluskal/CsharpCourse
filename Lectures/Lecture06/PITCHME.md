@@ -6,10 +6,6 @@
 ## Gang of Four patterns
 @snapend
 
-@snap[south-east span-30]
-[ Michal Orlicek <xorlic00@stud.fit.vutbr.cz> ]
-@snapend 
-
 ---
 ## Design Pattern
 * **General repeatable solution to a commonly occurring problem** in software design
@@ -53,7 +49,8 @@
 * Samples in this lecture 
   * Can be run from `ConsoleApp` in the solution
   * **From real world**
-  * For better demonstration and understanding, they are **not .NET optimized**
+  * For better demonstration and understanding, three versions are provided
+    * Structural - reflects GoF, RealWorld and .NET Optimized
     * Without *generics*, *delegates*, *reflection* and more...
 
 ---
@@ -69,63 +66,105 @@
 @snapend
 
 ---
-##  Abstract Factory
-* **Definition:** *Provides an interface for creating families of related or dependent objects without specifying their concrete classes*
-* **Frequency of use:** *High*
+## Singleton
+* **Definition:** *Ensures a class has only one instance and provide a global point of access to it*
+* **Frequency of use:** *Medium high*
 
 +++
-###  Abstract Factory - UML Diagram
+###  Singleton - UML Diagram
 
-![](/Lectures/Lecture06/Assets/img/AbstractFactory.gif)
-
-+++
-### Abstract Factory - Participants
-* **AbstractFactory**  *(ContinentFactory)*
-  * Declares an interface for operations that create abstract products
-* **ConcreteFactory**  *(AfricaFactory, AmericaFactory)*
-  * Implements the operations to create concrete product objects
-* **AbstractProduct**  *(Herbivore, Carnivore)*
-  * Declares an interface for a type of product object
-* **Product**  *(Wildebeest, Lion, Bison, Wolf)*
-  * Defines a product object to be created by the corresponding concrete factory
-  * Implements the *AbstractProduct* interface
-* **Client**  *(AnimalWorld)*
-  * Uses interfaces declared by *AbstractFactory* and *AbstractProduct* classes
-
-+++?code=/Lectures/Lecture06/Assets/sln/Samples/Creational/AbstractFactorySample.cs&lang=C#&title=Abstract Factory - Sample
-@[5-6]
-@[7-18]
-@[9-12]
-@[14-17]
-@[7-18]
-@[21-25]
-@[27-38]
-@[29-32]
-@[34-37]
-@[27-38]
-@[40-51]
-@[42-45]
-@[47-50]
-@[40-51]
-@[53-55]
-@[57-60]
-@[62-64]
-@[66-73]
-@[75-77]
-@[79-86]
-@[88-103]
-@[90-91]
-@[93-97]
-@[99-102]
-@[88-103]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Creational/AbstractFactorySample.cs)
+![](/Lectures/Lecture06/Assets/img/Singleton.gif)
 
 +++
-### Abstract Factory - Sample Output
+### Singleton - Participants
+* **Singleton**  *(LoadBalancer)*
+  * Defines an Instance operation that lets clients access its unique instance
+  * Instance is a class operation
+  * Responsible for creating and maintaining its own unique instance
+
++++?code=/Lectures/Lecture06/Assets/sln/Samples/Creational/SingletonSample.cs&lang=C#&title=Singleton - Sample
+@[6-7]
+@[8-25]
+@[10-13]
+@[15-16]
+@[18-24]
+@[8-25]
+@[28-29]
+@[34, 36-43]
+@[33]
+@[46-53]
+@[55-68]
+@[61]
+@[62-63, 65]
+@[64]
+@[55-68]
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Creational/SingletonSample.cs)
+
++++
+### Singleton - Sample Output
 
 ```
-Lion eats Wildebeest
-Wolf eats Bison
+Same instance
+
+ServerIII
+ServerII
+ServerI
+ServerII
+ServerI
+ServerIII
+ServerI
+ServerIII
+ServerIV
+ServerII
+ServerII
+ServerIII
+ServerIV
+ServerII
+ServerIV
+```
+
+---
+## Prototype
+* **Definition:** *Specifies the kind of objects to create using a prototypical instance, and create new objects by copying this prototype*
+* **Frequency of use:** *Medium*
+
++++
+###  Prototype - UML Diagram
+
+![](/Lectures/Lecture06/Assets/img/Prototype.gif)
+
++++
+### Prototype - Participants
+* **Prototype**  *(ColorPrototype)*
+  * Declares an interface for cloning itself
+* **ConcretePrototype**  *(Color)*
+  * Implements an operation for cloning itself
+* **Client**  *(ColorManager)*
+  * Creates a new object by asking a prototype to clone itself
+
++++?code=/Lectures/Lecture06/Assets/sln/Samples/Creational/PrototypeSample.cs&lang=C#&title=Prototype - Sample
+@[6-7]
+@[8-26]
+@[10-20]
+@[8-26]
+@[29-32]
+@[34-54]
+@[36-45]
+@[47-53]
+@[34-54]
+@[56-66]
+@[58-59]
+@[61-65]
+@[56-66]
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Creational/PrototypeSample.cs)
+
++++
+### Prototype - Sample Output
+
+```
+Cloning color RGB: 255,  0,  0
+Cloning color RGB: 128,211,128
+Cloning color RGB: 211, 34, 20
 ```
 
 ---
@@ -183,7 +222,7 @@ Wolf eats Bison
 @[143-148]
 @[140-141, 150-156]
 @[157-165]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Creational/BuilderSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Creational/BuilderSample.cs)
 
 +++
 ### Builder - Sample Output
@@ -251,7 +290,7 @@ Vehicle Type: MotorCycle
 @[61-75]
 @[77-85]
 @[87-97]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Creational/FactoryMethodSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Creational/FactoryMethodSample.cs)
 
 +++
 ### Factory Method - Sample Output
@@ -270,107 +309,65 @@ Report -------
  BibliographyPage
 ```
 
+
 ---
-## Prototype
-* **Definition:** *Specifies the kind of objects to create using a prototypical instance, and create new objects by copying this prototype*
-* **Frequency of use:** *Medium*
+##  Abstract Factory
+* **Definition:** *Provides an interface for creating families of related or dependent objects without specifying their concrete classes*
+* **Frequency of use:** *High*
 
 +++
-###  Prototype - UML Diagram
+###  Abstract Factory - UML Diagram
 
-![](/Lectures/Lecture06/Assets/img/Prototype.gif)
+![](/Lectures/Lecture06/Assets/img/AbstractFactory.gif)
 
 +++
-### Prototype - Participants
-* **Prototype**  *(ColorPrototype)*
-  * Declares an interface for cloning itself
-* **ConcretePrototype**  *(Color)*
-  * Implements an operation for cloning itself
-* **Client**  *(ColorManager)*
-  * Creates a new object by asking a prototype to clone itself
+### Abstract Factory - Participants
+* **AbstractFactory**  *(ContinentFactory)*
+  * Declares an interface for operations that create abstract products
+* **ConcreteFactory**  *(AfricaFactory, AmericaFactory)*
+  * Implements the operations to create concrete product objects
+* **AbstractProduct**  *(Herbivore, Carnivore)*
+  * Declares an interface for a type of product object
+* **Product**  *(Wildebeest, Lion, Bison, Wolf)*
+  * Defines a product object to be created by the corresponding concrete factory
+  * Implements the *AbstractProduct* interface
+* **Client**  *(AnimalWorld)*
+  * Uses interfaces declared by *AbstractFactory* and *AbstractProduct* classes
 
-+++?code=/Lectures/Lecture06/Assets/sln/Samples/Creational/PrototypeSample.cs&lang=C#&title=Prototype - Sample
-@[6-7]
-@[8-26]
-@[10-20]
-@[8-26]
++++?code=/Lectures/Lecture06/Assets/sln/Samples/Creational/AbstractFactorySample.cs&lang=C#&title=Abstract Factory - Sample
+@[5-6]
+@[7-18]
+@[9-12]
+@[14-17]
+@[7-18]
+@[21-25]
+@[27-38]
 @[29-32]
-@[34-54]
-@[36-45]
-@[47-53]
-@[34-54]
-@[56-66]
-@[58-59]
-@[61-65]
-@[56-66]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Creational/PrototypeSample.cs)
-
+@[34-37]
+@[27-38]
+@[40-51]
+@[42-45]
+@[47-50]
+@[40-51]
+@[53-55]
+@[57-60]
+@[62-64]
+@[66-73]
+@[75-77]
+@[79-86]
+@[88-103]
+@[90-91]
+@[93-97]
+@[99-102]
+@[88-103]
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Creational/AbstractFactorySample.cs)
 
 +++
-### Prototype - Sample Output
+### Abstract Factory - Sample Output
 
 ```
-Cloning color RGB: 255,  0,  0
-Cloning color RGB: 128,211,128
-Cloning color RGB: 211, 34, 20
-```
-
----
-## Singleton
-* **Definition:** *Ensures a class has only one instance and provide a global point of access to it*
-* **Frequency of use:** *Medium high*
-
-+++
-###  Singleton - UML Diagram
-
-![](/Lectures/Lecture06/Assets/img/Singleton.gif)
-
-+++
-### Singleton - Participants
-* **Singleton**  *(LoadBalancer)*
-  * Defines an Instance operation that lets clients access its unique instance
-  * Instance is a class operation
-  * Responsible for creating and maintaining its own unique instance
-
-+++?code=/Lectures/Lecture06/Assets/sln/Samples/Creational/SingletonSample.cs&lang=C#&title=Singleton - Sample
-@[6-7]
-@[8-25]
-@[10-13]
-@[15-16]
-@[18-24]
-@[8-25]
-@[28-29]
-@[34, 36-43]
-@[33]
-@[46-53]
-@[55-68]
-@[61]
-@[62-63, 65]
-@[64]
-@[55-68]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Creational/SingletonSample.cs)
-
-+++
-### Singleton - Sample Output
-
-```
-Same instance
-
-ServerIII
-ServerII
-ServerI
-ServerII
-ServerI
-ServerIII
-ServerI
-ServerIII
-ServerIV
-ServerII
-ServerII
-ServerIII
-ServerIV
-ServerII
-ServerIV
+Lion eats Wildebeest
+Wolf eats Bison
 ```
 
 ---
@@ -429,7 +426,7 @@ ServerIV
 @[75-94]
 @[96-105]
 @[107-116]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Structural/AdapterSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Structural/AdapterSample.cs)
 
 +++
 ### Adapter - Sample Output
@@ -505,7 +502,7 @@ Compound: Alcohol ------
 @[101-109]
 @[111-124]
 @[126-139]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Structural/BridgeSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Structural/BridgeSample.cs)
 
 +++
 ### Bridge - Sample Output
@@ -573,7 +570,7 @@ Henry Velasquez
 @[85-88]
 @[90-93]
 @[95-102]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Structural/CompositeSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Structural/CompositeSample.cs)
 
 +++
 ### Composite - Sample Output
@@ -634,7 +631,7 @@ Henry Velasquez
 @[104-108]
 @[110-114]
 @[116-120]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Structural/DecoratorSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Structural/DecoratorSample.cs)
 
 +++
 ### Decorator - Sample Output
@@ -699,7 +696,7 @@ borrower: Customer #2
 @[63-65, 77]
 @[67-76]
 @[57-77]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Structural/FacadeSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Structural/FacadeSample.cs)
 
 +++
 ### Facade - Sample Output
@@ -769,7 +766,7 @@ Ann McKinsey has been Approved
 @[96-112]
 @[114]
 @[116-132]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Structural/FlyweightSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Structural/FlyweightSample.cs)
 
 +++
 ### Flyweight - Sample Output
@@ -823,7 +820,7 @@ B (pointsize 18)
 @[51-52]
 @[53]
 @[55-73]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Structural/ProxySample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Structural/ProxySample.cs)
 
 +++
 ### Proxy - Sample Output
@@ -895,7 +892,7 @@ B (pointsize 18)
 @[81-86]
 @[88-90]
 @[79-91]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/ChainOfResponsibilitySample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/ChainOfResponsibilitySample.cs)
 
 +++
 ### Chain of Responsibility - Sample Output
@@ -951,7 +948,7 @@ Request# 2036 requires an executive meeting!
 @[116-124]
 @[127-136]
 @[138-148]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/CommandSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/CommandSample.cs)
 
 +++
 ### Command - Sample Output
@@ -1031,7 +1028,7 @@ Current value = 500 (following * 10)
 @[145-158]
 @[161-171]
 @[173-186]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/InterpreterSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/InterpreterSample.cs)
 
 +++
 ### Interpreter - Sample Output
@@ -1082,7 +1079,7 @@ MCMXXVIII = 1928
 @[66-69]
 @[71-77]
 @[84-86]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/IteratorSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/IteratorSample.cs)
 
 +++
 ### Iterator - Sample Output
@@ -1138,7 +1135,7 @@ Item D
 @[86-90]
 @[79-91]
 @[93-105]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/MediatorSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/MediatorSample.cs)
 
 +++
 ### Mediator - Sample Output
@@ -1195,7 +1192,7 @@ To a non-Beatle: John to Yoko: 'My sweet love'
 @[85-90]
 @[92-94]
 @[97-100]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/MementoSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/MementoSample.cs)
 
 +++
 ### Memento - Sample Output
@@ -1263,7 +1260,7 @@ Budget: 25000
 @[88]
 @[90-93]
 @[79-94]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/ObserverSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/ObserverSample.cs)
 
 +++
 ### Observer - Sample Output
@@ -1329,7 +1326,7 @@ Notified Berkshire of IBM's change to $120.75
 @[196-203]
 @[205-211]
 @[213-219]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/StateSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/StateSample.cs)
 
 +++
 ### State - Sample Output
@@ -1401,7 +1398,7 @@ Withdrew $1,100.00 ---
 @[67-70]
 @[72-75]
 @[77-83]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/StrategySample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/StrategySample.cs)
 
 +++
 ### Strategy - Sample Output
@@ -1468,7 +1465,7 @@ MergeSorted list
 @[72-80]
 @[82-88]
 @[70-89]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/TemplateMethodSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/TemplateMethodSample.cs)
 
 +++
 ### Template Method - Sample Output
@@ -1550,7 +1547,7 @@ Mishi Kobe Niku
 @[98-104]
 @[106-112]
 @[114-120]
-[Code sample](https://github.com/orlicekm/CsharpCourse/blob/master/Lectures/Lecture06/Assets/sln/Samples/Behavioral/VisitorSample.cs)
+[Code sample](https://github.com/pluskal/CsharpCourse/blob/gof/Lectures/Lecture06/Assets/sln/Samples/Behavioral/VisitorSample.cs)
 
 +++
 ### Visitor - Sample Output
