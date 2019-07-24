@@ -6,6 +6,10 @@
 ## Gang of Four patterns
 @snapend
 
+@snap[south-east span-100]
+Based on https://www.dofactory.com/net/design-patterns
+@snapend
+
 ---
 ## Design Pattern
 * **General repeatable solution to a commonly occurring problem** in software design
