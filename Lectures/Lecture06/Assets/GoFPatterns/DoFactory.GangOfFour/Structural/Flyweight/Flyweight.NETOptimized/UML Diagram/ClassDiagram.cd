@@ -3,42 +3,42 @@
   <Comment CommentText="...">
     <Position X="4.823" Y="2.823" Height="0.521" Width="0.7" />
   </Comment>
-  <Class Name="DoFactory.GangOfFour.Flyweight.NETOptimized.MainApp" Collapsed="true">
+  <Class Name="GangOfFour.Flyweight.NETOptimized.MainApp" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>MainApp.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DoFactory.GangOfFour.Flyweight.NETOptimized.CharacterFactory" Collapsed="true">
+  <Class Name="GangOfFour.Flyweight.NETOptimized.CharacterFactory" Collapsed="true">
     <Position X="2.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MainApp.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DoFactory.GangOfFour.Flyweight.NETOptimized.Character" Collapsed="true">
+  <Class Name="GangOfFour.Flyweight.NETOptimized.Character" Collapsed="true">
     <Position X="2.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAIAAAAAAAAAAQAQAAAAQAAAAAAAAAAAIAAAAAAAAA=</HashCode>
       <FileName>MainApp.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DoFactory.GangOfFour.Flyweight.NETOptimized.CharacterA" Collapsed="true">
+  <Class Name="GangOfFour.Flyweight.NETOptimized.CharacterA" Collapsed="true">
     <Position X="0.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MainApp.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DoFactory.GangOfFour.Flyweight.NETOptimized.CharacterB" Collapsed="true">
+  <Class Name="GangOfFour.Flyweight.NETOptimized.CharacterB" Collapsed="true">
     <Position X="2.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MainApp.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DoFactory.GangOfFour.Flyweight.NETOptimized.CharacterZ" Collapsed="true">
+  <Class Name="GangOfFour.Flyweight.NETOptimized.CharacterZ" Collapsed="true">
     <Position X="6" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
